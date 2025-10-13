@@ -5,12 +5,9 @@ const age: number = 20
 console.log('Hello! My name is ' +name + ', ' +age + ' years old');
 
 // Task 2
-const num1: number = 2
-const num2: number = 4
-const add: number = num1 + num2
-const subs: number = num2 - num1
-console.log(add);
-console.log(subs);
+const [num1, num2] = [2, 4];
+console.log(`${num1} + ${num2} = `, num1 + num2);
+console.log(`${num2} - ${num1} = `, num2 - num1);
 
 //Task3
 const numbers = [66, 12];
